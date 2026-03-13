@@ -21,6 +21,8 @@ BuzzClaw is a self-hosted agent runtime built in Rust. Trait-driven architecture
 - **Daemon** — systemd user service for always-on deployment
 - **Onboard wizard** — interactive first-run setup
 - **Single binary** — no runtime dependencies, no Docker required
+- **Android App** — full agent runtime on your phone with JNI integration
+- **Web Sync** — synchronize your mobile workspace with `web.buzzster.xyz` via secure QR-linking
 
 ---
 
@@ -74,6 +76,17 @@ Then start chatting:
 ```bash
 buzzclaw chat
 ```
+
+---
+
+## Web Synchronization
+
+You can use the BuzzClaw Web client to manage your mobile workspace from your computer.
+
+1. Open [web.buzzster.xyz](https://web.buzzster.xyz) on your desktop browser.
+2. In the BuzzClaw Android app, go to **Settings** → **Sync New Device**.
+3. Scan the QR code displayed on the web client.
+4. Your messages and workspace will now be synchronized in real-time.
 
 ---
 
